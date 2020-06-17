@@ -619,6 +619,10 @@ video {
   }
 }
 
+.z-neg {
+  z-index: -1 !important;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0 !important;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse))) !important;
